@@ -1,0 +1,6 @@
+[02-Jul-2009 07:29:08] PHP Fatal error:  Call to undefined function  perch_content() in /home/iamadtay/public_html/development/wychall/footer.php on line 2
+[02-Jul-2009 07:29:13] PHP Fatal error:  Call to undefined function  perch_content() in /home/iamadtay/public_html/development/wychall/footer.php on line 2
+[02-Jul-2009 07:30:01] PHP Fatal error:  Call to undefined function  perch_content() in /home/iamadtay/public_html/development/wychall/footer.php on line 2
+[02-Jul-2009 07:31:51] PHP Warning:  include(edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/teaching-and-learning/classes.php on line 5
+[02-Jul-2009 07:31:51] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/teaching-and-learning/classes.php on line 5
+[02-Jul-2009 07:31:51] PHP Fatal error:  Call to undefined function  perch_content() in /home/iamadtay/public_html/development/wychall/footer.php on line 2

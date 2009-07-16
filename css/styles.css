@@ -1,0 +1,679 @@
+/*
+ 
+	by Ad Taylor
+	www.iamadtaylor.com
+	
+	CONTENTS ----------
+	
+        1.BODY
+        2.DEFAULT STYLES
+			2.1 Backgrounds
+		3.TYPOGRAPHY
+        4.HEADINGS
+        5.LINKS
+        6.IMAGES
+        7.LAYOUT
+			7.1 Homepage
+			7.2 Teaching and Learning
+				7.2.1 Tables
+			7.3 Parents
+				7.3.1 Tables
+				7.3.2 Example menus
+				7.3.3 Prospectus
+			7.4 Out of school club
+			7.5 Childrens Centre
+				7.5.1 Lifelong Learning
+				7.5.2 WIGWAM
+        8.MASTHEAD(s)
+        9.NAVIGATION
+			9.1 Sub-navigation
+        10.SITEINFO/FOOTER
+
+	   
+    -------------------
+    
+    COLOURS -----------
+    
+        
+    
+    -------------------
+
+	GRID -------------
+		column width = 60px
+		Gutter width = 15px
+		Columns = 12
+	------------------
+	
+*/
+
+/*
+	DEBUG
+*/ 
+
+div {
+/*	outline: 1px solid #999 !important;*/
+}
+ 
+ /*
+ 	1. BODY --------------------------------------------------------------------------------
+ */
+
+ body {
+/*	background: transparent url('grid.png') repeat-y top center;*/
+	background-color: #CCC;
+}
+
+/*
+	2. DEFAULT STYLES ----------------based upon Vanilla by -------------------------------------------------------
+*/
+
+#accessible-navigation {
+	position : absolute;
+	top : -9999px;
+	left : -9999px;
+}
+
+
+body {
+	font: normal 12px/1.5em Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+pre, code, tt {
+	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal	;
+}
+h2, h3 {
+	background-color: #eee;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+	border-color : #eee;
+}
+em, i, dfn {
+	font-style: italic;
+}
+dfn {
+	font-weight:bold;
+}
+p, code, pre, kbd {
+	margin:0 0 18px 0;
+}
+blockquote {
+	margin:0 18px 18px 18px;
+}
+li ul, li ol {
+	margin:0 18px;
+}
+ul, ol {
+/*	margin:0 18px 18px 18px;*/
+}
+ul, ul li {
+	list-style-type:none;
+}
+ol, ol li {
+	list-style-type:none;
+}
+	.column ul, .column ul li {
+		list-style: disc inside ;
+	}
+	.column ol, .column ol li {
+		list-style: decimal inside;
+	}
+		.column ul, .column ol {
+			margin : 15px;
+		}
+dl {
+	margin:0 0 18px 0;
+}
+dl dt {
+	font-weight:bold;
+}
+dd {
+	margin-left:18px;
+}
+
+table {
+	margin-bottom:1.4em;
+	width:100%;
+	border-bottom : 1px solid #000;
+}
+th {
+	font-weight:bold;
+	border-top : 2px solid #000;
+	border-bottom : 2px solid #000;
+}
+th, td, caption {
+	padding:4px 10px 4px 5px;
+	text-align : left;
+}
+tr {
+	border-top : 1px solid #000;
+}
+tr:first-child {
+	border-top : none;
+}
+tr + td {
+	border-right : 2px solid #000;
+}
+tfoot {
+	font-style:italic;
+}
+sup, sub {
+	line-height:0;
+}
+abbr, acronym {
+	border-bottom: 1px dotted;
+}
+address {
+	margin:0 0 18px;
+	font-style:italic;
+}
+del {
+	text-decoration: line-through;
+}
+pre {
+	margin:18px 0;
+	white-space:pre;
+}
+img {
+	margin-bottom : 18px;
+}
+img.centered, .aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignright {
+	display: inline;
+}
+img.alignleft {
+	display: inline;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*:first-child+html .clearfix {
+	zoom: 1;
+	display: block;
+}
+* html .clearfix {
+	zoom: 1;
+	display: block;
+}
+.clear { 
+	clear : both;
+}
+
+
+
+/*
+	3. Typography ------------------------------------------------------------------------------
+*/
+
+
+
+/*
+	4. Headings ------------------------------------------------------------------------------
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	line-height : 1.5em;
+}
+
+h1 {
+	font-size : 300%;
+}
+h2 {
+	font-size : 200%;
+	padding : 2px;
+	margin-top : 10px;
+	margin-bottom : 4px;
+	
+}
+
+h3 {
+	font-size : 150%;
+	padding : 2px;
+	margin-top : 10px;
+	margin-bottom : 4px;
+}
+
+h4 {
+	font-size : 133.3%;
+}
+
+h5 {
+	font-size : 116.7%;
+}
+
+
+/*
+	7. LAYOUT ----------------------------------------------------------------------------------------
+*/
+div {
+	margin-left : 15px;	
+}
+
+#header, #navHolder, .section {
+	width : 885px;
+	margin : 0px auto;
+	position : relative;
+}
+
+.section {
+	clear : both;
+}
+
+/*SIZES*/
+.one {
+	width : 60px;
+}
+.two {
+	width : 135px;
+}
+.three {
+	width : 210px;
+}
+.four {
+	width : 285px;
+}
+.five {
+	width : 360px;
+}
+.six {
+	width : 435px;
+}
+.seven {
+	width : 510px;
+}
+.eight {
+	width : 585px;
+}
+.nine {
+	width : 660px;
+}
+.ten {
+	width : 735px;
+}
+.eleven {
+	width : 810px;
+}
+.twelve {
+	width : 885px;
+}
+/*COLUMNS*/
+.column {
+	float : left;
+	position: relative;
+}
+.column:first-child, .first-in-row {
+	margin-left : 0px;
+}
+/*3 columns side by side */
+.column + .three-column,.column + .clear + .three-column, .column {
+	margin-left : 0px;
+}
+	.column + .column,
+	.three-column .column + .column + .column + .column{
+		margin-left : 15px;
+	}
+.three-column .column {
+	width : 285px;
+	float : left;
+}
+	
+	.three-column .column:first-child {
+		margin-left : 0px;
+	}
+	.column + .column {
+		margin-left : 15px;
+	}
+	.three-column .column + .column + .column + .column {
+		margin-left : 0px;
+	}
+	.three-column .column + .column + .column + .column + .column{
+		margin-left : 15px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column {
+		margin-left : 0px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column + .column{
+		margin-left : 15px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column + .column + .column + .column {
+		margin-left : 0px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column + .column+ .column + .column + .column {
+		margin-left : 15px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column + .column + .column + .column + .column + .column + .column {
+		margin-left : 0px;
+	}
+	.three-column .column + .column + .column + .column + .column + .column + .column + .column+ .column + .column + .column + .column + .column + .column {
+		margin-left : 15px;
+	}
+	.three-column .column:after {
+		clear : left;
+	}
+	
+	
+	#support .three-column .column {
+		min-height: 360px;
+	}
+/*2 columns equal width*/
+.two-column-equal .column {
+	width : 435px;
+	float : left;
+}
+	.two-column-equal .column:first-child {
+		margin-left : 0px;
+	}
+/*2 columns left side larger*/
+.two-column-left-large .column {
+	width : 360px;
+	float : left;
+}
+	.two-column-left-large .column:first-child {
+		margin-left : 0px;
+		width : 510px;
+	}
+/*2 columns right side larger*/
+.two-column-right-large .column {
+	width : 510px;
+	float : left;
+}
+	.two-column-right-large .column:first-child {
+		margin-left : 0px;
+		width : 360px;
+	}
+/*Dates	*/
+ul.dates {
+	margin : 0px;
+	display: inline;
+}
+ul.dates li {
+	list-style-type: none;
+	position : relative;
+	clear : both;
+}
+.dates h4, .dates img {
+	float : left;
+}
+.dates h4, .dates span {
+	width : 360px;
+	margin-left : 15px;
+}
+.dates h4 {
+	border-bottom: 1px dotted #999;
+}
+.dates p { /*No javascript*/
+	width : 360px;
+	margin-left : 75px;	
+}
+.dates span { 
+	font-style: italic;
+}
+
+.dates p.description {
+	position : absolute;
+	left : 75px;
+	width : 360px;
+	padding : 15px;
+	z-index : 5;
+	background-color : #444;
+	background-color: rgba(0,0,0,0.7);
+	color : #fff;
+	display : none;
+}
+
+	
+/*Backgrounds*/
+.navBackground, #headerBackground, #contentBackground,.subnavBackground  {
+	margin : 0px;
+	padding : 0px;
+}
+#headerBackground {
+	background-color: #BBB;
+	background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCC), to(#EEE), color-stop(.6,#CCC));
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.navBackground {
+	background-color: #FFF;
+}
+
+.subnavBackground {
+	background-color: #AAA;
+	border-top: 1px solid #999;
+}
+
+
+/*7.1 Homepage*/
+.homepage h3 {
+	border : none;
+	background : none;
+}
+.homepage ol, .homepage ol li, .homepahe ul, .homepage ul li {
+	list-style-type: none;
+	margin-left: 0px;
+}
+/*7.2.1 Teaching and learning*/
+	/* 7.2.1 Tables*/
+#classes table {
+	width : 585px;
+}
+
+
+/*7.3.1 Parents*/
+	/* 7.3.1 Tables*/
+#term-dates table {
+	width : 435px;
+}
+#term-dates table tr td:first-child {
+	font-weight: bold;
+}
+	/*7.3.2 Example Menu*/
+ul.example-menu, ul.example-menu ul{ 
+	margin : 0px;
+}
+ul.example-menu { 
+	float: left;
+	background-color: #ddd;
+	margin-right: 141px;
+	padding : 5px;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+}
+
+ul.example-menu ul {
+	border-top: 1px dotted #999;
+}
+ul.example-menu +  ul.example-menu{ 
+	margin-right: 0px;
+}
+
+ul.example-menu li { 
+	margin-right: 15px;
+	font-size : 160%;
+	list-style: none;
+	
+}
+ul.example-menu li {
+	margin-top: 18px;
+}
+ul.example-menu li ul li{
+	font-size : 80%;
+	margin-top: 0px;
+}
+.example-menu li span{ 
+	font-size : 12px;
+	display : block;
+	color : #555;
+}
+.example-menu li ul li + li{ 
+	color: #3E6D00;
+}
+.example-menu li ul li { 
+	display: block;
+}
+	/*7.3.2 Prospectus*/
+button#prospectus-download  {
+	width: 15em;
+	padding: .5em;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	border: solid thin #882d13;
+	-webkit-border-radius: .7em;
+	-moz-border-radius: .7em;
+	border-radius: .7em;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 2px #bbb;
+	background-color: #ce401c;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e9ede8), to(#ce401c),color-stop(0.4, #8c1b0b));
+	}
+
+/* 7.4 Out of school club */
+#clubs {
+	margin : 0px;
+}
+#clubs h3{
+	background-color: #AAA;
+	margin : 0px;
+}
+#clubs li{ 
+	list-style : none;
+	clear : both;
+}
+#clubs ul {
+	margin-top: 0px;
+}
+#clubs ul li {
+	font-size : 116.6%;
+	float: left;
+	width : 285px;
+	padding-bottom : 18px;
+	padding-right: 15px;
+	
+	background-color: #ddd;
+	clear : none;
+}
+#clubs ul li + li {
+	background-color: #eee;
+}
+#clubs ul li + li + li + li{
+	background-color: #ddd;
+}
+
+#clubs li span {
+	display : block;
+}
+
+	/*7.5.1 Lifelong Learning*/
+span.price {
+	position : absolute;
+	top : 15.5px;
+	right : 15px;
+}
+	/*7.5.2 Wigwam*/
+h1#wigwam-header {
+	background: url(../img/wigwam/wigwamlogo.png) no-repeat;
+	width : 875px;
+	height : 318px;
+	text-indent : -9999px;
+}
+
+
+
+/*
+	8. MASTHEAD(s) -----------------------------------------------------------------------------------
+*/
+#header {
+	padding-top : 18px;
+}
+	#header img {
+		float : left;
+		clear : left;
+	}
+	#header img + div {
+		width : 435px;
+		float : right;
+		clear : right;
+	}
+
+
+
+/*
+	9.NAVIGATION -------------------------------------------------------------------------------------
+*/
+
+#navHolder {
+	min-height: 72px;
+}
+
+ul#nav {
+	margin-left: 0;
+	margin-top : 0;
+	padding-left: 0;
+	display: inline;
+	
+	position : absolute;
+	bottom : 16px;
+	right : 0px;
+}
+	ul#nav li{
+		margin-left: 0;
+		padding-left: 0;
+		display: inline;
+		
+		text-transform : uppercase;
+/*		font-size : 116.7%;*/
+	}
+		ul#nav li a {
+			color : #999;
+			text-decoration: none;
+			border-left: 1px solid #ccc;
+			padding : 0 15px;
+		}
+			ul#nav li:first-child a {
+				border-left : none;
+			}
+			
+			ul#nav li a:hover {
+				color : #333;
+			}
+	/*Sub Navigation*/
+	ul#subnav {
+		text-align : right;
+	}
+		ul#subnav li{
+			margin-left: 0;
+			padding-left: 20px;
+			display: inline;
+		}
+			ul#subnav li a {
+				color : #666;
+				text-decoration: none;
+				border-left: 1px solid #333;
+				padding : 0 15px;
+			}
+				ul#subnav li:first-child a {
+					border-left : none;
+				}
+
+				ul#subnav li a:hover {
+					color : #333;
+				}
+
+	
+

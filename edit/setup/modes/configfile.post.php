@@ -1,0 +1,14 @@
+    <h1>Your Config File</h1>
+    
+    <p>Copy the following to your clipboard, and paste it into a new file. Save the file as:</p>
+    
+    <p><code><?php echo realpath('../config') . DIRECTORY_SEPARATOR .'config.php'; ?></code></p>
+    
+    <form method="post" action="index.php?install=1">
+        <div>
+            <textarea rows="20" cols="80"><?php echo $config_file; ?></textarea>
+        </div>
+        <p class="submit">
+            <input type="submit" name="btnSubmit" value="I've done that!" />
+        </p>
+    </form>

@@ -1,0 +1,84 @@
+[02-Jul-2009 06:10:36] PHP Warning:  include(/perch/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/head.php on line 1
+[02-Jul-2009 06:10:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/perch/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/head.php on line 1
+[02-Jul-2009 06:55:58] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/perch/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/perch/inc/loader.php on line 11
+[02-Jul-2009 06:56:34] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/perch/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/perch/inc/loader.php on line 11
+[02-Jul-2009 09:57:23] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:28] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:28] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:43] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:43] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:44] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:44] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:59] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:57:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:58:06] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 09:58:06] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:01] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:01] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:03] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:03] PHP Warning:  include(../edit/runtime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../edit/runtime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iamadtay/public_html/development/wychall/index.php on line 5
+[02-Jul-2009 10:00:17] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php on line 11
+[02-Jul-2009 10:00:19] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php on line 11
+[02-Jul-2009 10:00:24] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php on line 11
+[02-Jul-2009 10:22:24] PHP Fatal error:  Cannot redeclare perch_autoload() (previously declared in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php:3) in /home/iamadtay/public_html/development/wychall/edit/inc/loader.php on line 11
+[09-Jul-2009 08:41:32] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iamadtay/public_html/development/wychall/test.php on line 9
+[10-Jul-2009 02:26:28] PHP Parse error:  syntax error, unexpected '=', expecting '(' in /home/iamadtay/public_html/development/wychall/test.php on line 14
+[10-Jul-2009 02:26:52] PHP Fatal error:  Class 'PerchDB' not found in /home/iamadtay/public_html/development/wychall/test.php on line 12
+[10-Jul-2009 02:26:53] PHP Fatal error:  Class 'PerchDB' not found in /home/iamadtay/public_html/development/wychall/test.php on line 12
+[10-Jul-2009 02:27:21] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 13
+[10-Jul-2009 02:28:42] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:28:43] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:28:45] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:28:45] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:28:46] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:28:46] PHP Fatal error:  Call to private PerchDB::__construct() from invalid context in /home/iamadtay/public_html/development/wychall/test.php on line 11
+[10-Jul-2009 02:41:08] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/iamadtay/public_html/development/wychall/test.php on line 4
+[10-Jul-2009 02:41:20] PHP Parse error:  syntax error, unexpected ')', expecting '&' or T_VARIABLE in /home/iamadtay/public_html/development/wychall/test.php on line 4
+[10-Jul-2009 02:41:53] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iamadtay/public_html/development/wychall/test.php on line 12
+[10-Jul-2009 02:54:07] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/iamadtay/public_html/development/wychall/test.php on line 14
+[10-Jul-2009 02:54:07] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home/iamadtay/public_html/development/wychall/test.php on line 18
+[10-Jul-2009 02:59:22] PHP Warning:  json_decode() expects parameter 1 to be string, resource given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:01:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 14
+[10-Jul-2009 03:01:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 14
+[10-Jul-2009 03:01:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 14
+[10-Jul-2009 03:02:17] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:02:19] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:02:21] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:02:33] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:03:30] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:03:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:05:04] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:05:09] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:06:37] PHP Parse error:  syntax error, unexpected '}' in /home/iamadtay/public_html/development/wychall/test.php on line 20
+[10-Jul-2009 03:07:20] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting ',' or ';' in /home/iamadtay/public_html/development/wychall/test.php on line 18
+[10-Jul-2009 03:11:39] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/iamadtay/public_html/development/wychall/test.php on line 25
+[10-Jul-2009 03:11:41] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/iamadtay/public_html/development/wychall/test.php on line 25
+[10-Jul-2009 03:14:10] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /home/iamadtay/public_html/development/wychall/test.php on line 24
+[10-Jul-2009 03:14:11] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /home/iamadtay/public_html/development/wychall/test.php on line 24
+[10-Jul-2009 03:14:24] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /home/iamadtay/public_html/development/wychall/test.php on line 24
+[10-Jul-2009 03:14:25] PHP Fatal error:  Call to undefined function  printr() in /home/iamadtay/public_html/development/wychall/test.php on line 21
+[10-Jul-2009 03:14:25] PHP Fatal error:  Call to undefined function  printr() in /home/iamadtay/public_html/development/wychall/test.php on line 21
+[10-Jul-2009 03:14:27] PHP Fatal error:  Call to undefined function  printr() in /home/iamadtay/public_html/development/wychall/test.php on line 21
+[10-Jul-2009 03:24:25] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:24:26] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:24:27] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 17
+[10-Jul-2009 03:34:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 40
+[10-Jul-2009 03:34:22] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:36:51] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 40
+[10-Jul-2009 03:36:51] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:36:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 40
+[10-Jul-2009 03:36:53] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:37:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/iamadtay/public_html/development/wychall/test.php on line 40
+[10-Jul-2009 03:37:22] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:37:52] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:38:34] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:38:39] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:38:39] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:40:07] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:40:08] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[10-Jul-2009 03:40:25] PHP Warning:  Invalid argument supplied for foreach() in /home/iamadtay/public_html/development/wychall/test.php on line 8
+[13-Jul-2009 03:43:56] PHP Parse error:  syntax error, unexpected '}' in /home/iamadtay/public_html/development/wychall/plugins/archiveExtractor.php on line 20
+[13-Jul-2009 03:43:57] PHP Parse error:  syntax error, unexpected '}' in /home/iamadtay/public_html/development/wychall/plugins/archiveExtractor.php on line 20

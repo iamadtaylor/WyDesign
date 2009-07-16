@@ -1,0 +1,10 @@
+<div id="<perch:content id="course_id" type="text" label="Course ID" html="false" required="true" />" class="column twelve">
+	<h3><perch:content id="course_title" type="text" label="Course Title" html="false" required="true" /> </h3>
+	<perch:if exists="course_price"><span class="price"><perch:content id="course_price" type="text" label="Course Price" html="false" /></span></perch:if>
+	<perch:content id="course_information" type="textarea" label="Course Information" textile="true" editor="markitup" />
+</div><!-- .column -->
+
+<perch:help>
+	<h3>Course ID</h3>
+	<p>Please re-enter the course title omitting any spaces and all in lowercase. For example, 'Everyday Maths' would be 'everydaymaths'.</p>
+</perch:help>

@@ -1,0 +1,54 @@
+<perch:help>
+    <p><strong>"Heading"</strong> should be entered follow the format "[Year] <strong>to</strong> [Year]". For example, "2008 <strong>to</strong> 2009".</p>
+	<p>[note: This rule is not strict and just set as a standard.]</p>
+</perch:help>
+<h2>
+	<perch:content id="heading" type="text" label="Heading" />
+</h2>
+<table>
+	<tr>
+		<th colspan="2" align="left">Autumn Term</th>
+	</tr>
+	<tr>
+		<td width="35%" align="right">Term starts</td>
+		<td width="65%"><perch:content id="autumn_term_starts" type="date" label="Autumn term starts" format="l jS F Y" /></td>
+	</tr>
+	<tr>
+		<td align="right">Half-term</td>
+		<td><perch:content id="autumn_half_term_starts" type="date" label="Autumn half-term starts" format="l jS F Y"/> <strong>to</strong> <perch:content id="autumn_half_term_finishes" type="date" label="Autumn half-term finishes" format="l jS F Y"/></td>
+	</tr>
+	<tr>
+		<td align="right">Term finishes</td>
+		<td><perch:content id="autumn_term_finishes" type="date" label="Autumn term finishes"  format="l jS F Y"/></td>
+	</tr>
+	<tr align="left">
+		<th colspan="2">Spring Term</th>
+	</tr>
+	<tr>
+		<td align="right">Term starts</td>
+		<td><perch:content id="spring_term_starts" type="date" label="Spring term starts" format="l jS F Y" /></td>
+	</tr>
+	<tr>
+		<td align="right">Half-term</td>
+		<td><perch:content id="spring_half_term_starts" type="date" label="Spring half-term starts" format="l jS F Y"/> <strong>to</strong> <perch:content id="spring_half_term_finishes" type="date" label="Spring half-term finishes" format="l jS F Y"/></td>
+	</tr>
+	<tr>
+		<td align="right">Term finishes</td>
+		<td><perch:content id="spring_term_finishes" type="date" label="Spring term finishes" format="l jS F Y" /></td>
+	</tr>
+	<tr align="left">
+		<th colspan="2">Summer Term</th>
+	</tr>
+	<tr>
+		<td align="right">Term starts</td>
+		<td><perch:content id="summer_term_starts" type="date" label="Summer half-term starts" format="l jS F Y"/></td>
+	</tr>
+	<tr>
+		<td align="right">Half-term</td>
+		<td><perch:content id="summer_half_term_starts" type="date" label="Summer half-term starts" format="l jS F Y"/> <strong>to</strong> <perch:content id="summer_half_term_finishes" type="date" label="Summer half-term finishes" format="l jS F Y"/></td>
+	</tr>
+	<tr>
+		<td align="right">Term finishes</td>
+		<td><perch:content id="summer_term_finishes" type="date" label="Summer term finishes" format="l jS F Y" /></td>
+	</tr>
+</table>

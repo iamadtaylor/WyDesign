@@ -1,0 +1,7 @@
+<perch:if exists="destination">
+		<tr class="vevent">
+			<td class="dtstart"><perch:content id="trip_date" type="date" label="Trip date" format="l jS F Y" /></td>
+			<td><perch:content id="classes" type="text" label="Classes Attending" html="false" required="true" /></td>
+			<td class="summary location"><perch:content id="destination" type="text" label="Destination" html="false" required="true" /></td>
+		</tr>
+</perch:if>

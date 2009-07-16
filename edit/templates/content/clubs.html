@@ -1,0 +1,13 @@
+<perch:help>
+    <p>'Club is on' is to be entered as plain text to allow flexibility.</p>
+</perch:help>
+
+					<li><h3><perch:content id="club_name" type="text" label="Club name" required="true" /></h3>
+						<ul>
+							<perch:if exists="club_type"><li><span>Club type : </span><perch:content id="club_type" type="text" label="Club type"/></li></perch:if>
+							<li><span>When : </span><perch:content id="club_when" type="text" label="Club is on" required="true" /></li>
+							<li><span>Lead by : </span><perch:content id="club_lead_by" type="text" label="Club lead by" required="true" /></li>
+							<li><span>Cost : </span><perch:content id="club_cost" type="text" label="club_cost" required="true" /></li>
+							<li><span>For : </span><perch:content id="club_for" type="text" label="For years" required="true" /></li>
+						</ul>
+					</li>

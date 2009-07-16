@@ -1,0 +1,12 @@
+div.debug {
+	margin: 3em 1em;
+	font-family: Courier, "Courier New", courier, fixed;
+	font-size: 100%;
+	text-align: left;
+	background-color: #fff;
+	color: #000;
+}
+
+div.debug pre {
+	line-height: .6;
+}
