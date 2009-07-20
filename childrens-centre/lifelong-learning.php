@@ -44,7 +44,6 @@
 
 		
 		<div class="clear"></div>
-		
 		<?php perch_content('Lifelong Learning Courses'); ?>
 		
 	</div><!-- .section -->

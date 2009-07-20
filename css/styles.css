@@ -1,3 +1,5 @@
+
+
 /*
  
 	by Ad Taylor
@@ -60,7 +62,7 @@ div {
 
  body {
 /*	background: transparent url('grid.png') repeat-y top center;*/
-	background-color: #CCC;
+/*	background-color: red;*/
 }
 
 /*
@@ -80,15 +82,7 @@ body {
 pre, code, tt {
 	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
 }
-h1, h2, h3, h4, h5, h6{
-	font-weight: normal	;
-}
-h2, h3 {
-	background-color: #eee;
-	-moz-border-radius : 10px;
-	-webkit-border-radius : 10px;
-	border-color : #eee;
-}
+
 em, i, dfn {
 	font-style: italic;
 }
@@ -219,19 +213,36 @@ img.alignleft {
 /*
 	3. Typography ------------------------------------------------------------------------------
 */
+@font-face {
+font‐family: ;
+src:
+    url("fonts/Chunkfive.ttf");
+}
 
-
+@font-face {
+  font-family: "ChunkFive";
+  src: 
+		local("ChunkFive"),
+		url(fonts/Chunkfive.ttf) format("truetype");
+}
 
 /*
 	4. Headings ------------------------------------------------------------------------------
 */
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal	;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	line-height : 1.5em;
 }
 
 h1 {
-	font-size : 300%;
+	font-size : 500%;
+	font-family : "Chunkfive";
+	background-color: yellow;
+	color : #222;
+	line-height : 1em;
 }
 h2 {
 	font-size : 200%;
@@ -255,8 +266,20 @@ h4 {
 h5 {
 	font-size : 116.7%;
 }
-
-
+h2 {
+/*	background-color: #eee;*/
+/*	-moz-border-radius : 10px;*/
+/*	-webkit-border-radius : 10px;*/
+/*	border-color : #eee;*/
+/*	background-color: #69EEFF;*/
+	color : #FF4406;
+}
+h3 {
+	color : #FFC325;
+}
+h2:after, h3:after {
+	content : '.';
+}
 /*
 	7. LAYOUT ----------------------------------------------------------------------------------------
 */
@@ -272,6 +295,7 @@ div {
 
 .section {
 	clear : both;
+	background-color: #fff;
 }
 
 /*SIZES*/
@@ -315,11 +339,16 @@ div {
 .column {
 	float : left;
 	position: relative;
+	
 }
 .column:first-child, .first-in-row {
 	margin-left : 0px;
 }
 /*3 columns side by side */
+.three-column {
+	background:transparent url('../img/backgrounds/dottedDivider.gif') repeat-y top left;
+	
+}
 .column + .three-column,.column + .clear + .three-column, .column {
 	margin-left : 0px;
 }
@@ -328,8 +357,9 @@ div {
 		margin-left : 15px;
 	}
 .three-column .column {
-	width : 285px;
+	width : 285px; /*Adjusted by -2x for border*/
 	float : left;
+/*	border-right : 2px solid #00298E;*/
 }
 	
 	.three-column .column:first-child {
@@ -443,8 +473,9 @@ ul.dates li {
 	padding : 0px;
 }
 #headerBackground {
-	background-color: #BBB;
-	background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCC), to(#EEE), color-stop(.6,#CCC));
+/*	background-color: #BBB;
+	background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6e418), to(#faf189), color-stop(.6,#faf189));*/
+	background:#FFFF00 url('../img/schoolFront.jpg') no-repeat scroll center center;	
 	border-top: 1px solid #999;
 	border-bottom: 1px solid #999;
 }
@@ -454,7 +485,7 @@ ul.dates li {
 }
 
 .subnavBackground {
-	background-color: #AAA;
+	background-color: yellow;
 	border-top: 1px solid #999;
 }
 
@@ -600,15 +631,14 @@ h1#wigwam-header {
 */
 #header {
 	padding-top : 18px;
+	min-height : 359px;
 }
-	#header img {
-		float : left;
-		clear : left;
+	#header p {
+		margin-top : 18px;
+		font-size : 113.7%;
 	}
-	#header img + div {
-		width : 435px;
-		float : right;
-		clear : right;
+	#header p span {
+		background-color: #fff;
 	}
 
 
@@ -640,7 +670,7 @@ ul#nav {
 /*		font-size : 116.7%;*/
 	}
 		ul#nav li a {
-			color : #999;
+			color : #555;
 			text-decoration: none;
 			border-left: 1px solid #ccc;
 			padding : 0 15px;
@@ -651,6 +681,9 @@ ul#nav {
 			
 			ul#nav li a:hover {
 				color : #333;
+			}
+			ul#nav li.current {
+				background-color: yellow;
 			}
 	/*Sub Navigation*/
 	ul#subnav {

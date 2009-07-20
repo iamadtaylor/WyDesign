@@ -3,7 +3,7 @@
 -->
 <?php include('edit/runtime.php'); ?>
 <?php include('head.php'); ?>
-<?php include('plugins/archiveExtractor.php');?>
+<?php include('edit/plugins/archiveExtractor/archiveExtractor.php');?>
 
 <body>
 	
@@ -11,13 +11,11 @@
 		
 	<div id="headerBackground">
 			<div id="header">
-			<img src="/css/grid.png" width="435" height="300" alt="Grid"/>
-		
 	
 			<div id="homeContent">
 				<h1>Wychall Primary School and Children's Centre</h1>
-				<p>Wychall Primary school aims to develop young people from 3 to 11 years, providing a safe, secure environment that ensures children are confident to explore, challenge and enjoy their learning, so optimising their individual potential to achieve.</p>
-				<p>We are a dedicated staff that works to ensure that school provides a warm, welcoming and stimulating surroundings for all children, with an emphasis on the provision of high quality teaching and learning.</p>
+				<p class="five"><span>Wychall Primary school aims to develop young people from 3 to 11 years, providing a safe, secure environment that ensures children are confident to explore, challenge and enjoy their learning, so optimising their individual potential to achieve.</span></p>
+				<p class="five"><span>We are a dedicated staff that works to ensure that school provides a warm, welcoming and stimulating surroundings for all children, with an emphasis on the provision of high quality teaching and learning.</span></p>
 			</div>
 			<div class="clear"></div>
 		</div><!-- #header -->
